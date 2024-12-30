@@ -1,9 +1,7 @@
-Here’s an enhanced and more polished version of your Dental Clinic Management System documentation:
-
-
 # **Dental Clinic Management System**  
 A robust Java-based desktop application designed to streamline dental clinic operations, including managing appointments, patient records, and staff authentication.
 
+---
 
 ## **Key Features**  
 
@@ -22,6 +20,7 @@ A robust Java-based desktop application designed to streamline dental clinic ope
 ### **Email Notifications**  
 - Automated email reminders and notifications for appointment confirmations and changes.  
 
+---
 
 ## **Technologies Utilized**  
 
@@ -32,6 +31,7 @@ A robust Java-based desktop application designed to streamline dental clinic ope
 - **Scheduling**: JCalendar  
 - **UI Styling**: FlatLaf  
 
+---
 
 ## **System Requirements**  
 
@@ -41,26 +41,33 @@ To run this application, ensure the following prerequisites are met:
 - **Maven**: Version 3.x or later  
 - **SQLite Database**  
 
+---
 
 ## **Installation Guide**  
 
 Follow these steps to set up and run the Dental Clinic Management System:  
 
 1. **Clone the Repository**  
+   ```bash  
    git clone https://github.com/youssef-abdel/GestionCabinetDentaireJavaSwing.git  
-   
+   ```  
 
 2. **Navigate to the Project Directory**  
+   ```bash  
    cd dental-clinic-management  
+   ```  
 
 3. **Build the Project Using Maven**  
+   ```bash  
    mvn clean install  
-  
+   ```  
 
 4. **Run the Application**  
+   ```bash  
    java -jar target/dental-clinic-management-1.0-SNAPSHOT.jar  
+   ```  
 
-
+---
 
 ## **Project Directory Structure**  
 
@@ -71,6 +78,8 @@ The project is organized into the following modules:
 - **`src/main/java/com/dentalclinic/dao/`**: Database Access Objects  
 - **`src/main/java/com/dentalclinic/util/`**: Utility classes  
 
+---
+
 ## **Dependencies**  
 
 The application relies on the following libraries and tools:  
@@ -80,29 +89,31 @@ The application relies on the following libraries and tools:
 - **JCalendar**: Version 1.4  
 - **FlatLaf**: Version 3.2.1  
 
+---
 
 ## **Contributing Guidelines**  
 
 Contributions are welcome! To contribute:  
 
 1. Fork the repository.  
-
 2. Create a new feature branch:  
+   ```bash  
    git checkout -b feature/your-feature-name  
- 
+   ```  
 3. Commit your changes:  
+   ```bash  
    git commit -m "Add your message here"  
-  
+   ```  
 4. Push to your branch:  
-  
+   ```bash  
    git push origin feature/your-feature-name  
-  
+   ```  
 5. Open a pull request.  
 
+---
 
 ## **License**  
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for full details.  
 
-
-This version improves readability, consistency, and visual organization, making the documentation more engaging and user-friendly. Let me know if you want further tweaks!
+---
