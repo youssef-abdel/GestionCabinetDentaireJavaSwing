@@ -37,22 +37,21 @@ cd dental-clinic-management
 mvn clean install
 
 4-Run the application:
-
 java -jar target/dental-clinic-management-1.0-SNAPSHOT.jar
 
-Project Structure
+Project Structure:
 src/main/java/com/dentalclinic/ui/ - User interface components
 src/main/java/com/dentalclinic/model/ - Data models
 src/main/java/com/dentalclinic/dao/ - Database access objects
 src/main/java/com/dentalclinic/util/ - Utility classes
 
-Dependencies
+Dependencies:
 SQLite JDBC Driver (3.43.0.0)
 JavaMail API (1.6.2)
 JCalendar (1.4)
 FlatLaf (3.2.1)
 
-Contributing
+Contributing:
 1-Fork the repository
 2-Create your feature branch
 3-Commit your changes
